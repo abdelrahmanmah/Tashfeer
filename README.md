@@ -1,7 +1,6 @@
 <br />
 <div align="center">
-  
-  <a href="https://github.com/abdelrahmanmah/Tashfeer">  <!-- TODO: Update this link! -->
+  <a href="https://github.com/abdelrahmanmah/Tashfeer">
     <!-- You can create a simple logo or use an emoji -->
     <!-- Option 1: Emoji -->
     <h1 style="font-size: 4em;">🕶️</h1>
@@ -16,9 +15,9 @@
     <br />
     Your personal digital enigma machine!
     <br />
-    <a href="https://github.com/[YOUR_GITHUB_USERNAME]/[YOUR_REPOSITORY_NAME]/issues">Report Bug</a> <!-- TODO: Update this link! -->
+    <a href="https://github.com/abdelrahmanmah/Tashfeer/issues">Report Bug</a>
     ·
-    <a href="https://github.com/[YOUR_GITHUB_USERNAME]/[YOUR_REPOSITORY_NAME]/issues">Request Feature</a> <!-- TODO: Update this link! -->
+    <a href="https://github.com/abdelrahmanmah/Tashfeer/issues">Request Feature</a>
   </p>
 </div>
 
@@ -44,7 +43,7 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#authors-and-contact">Authors and Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -52,9 +51,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project 🚀
 
-[![Tashfeer Screenshot][product-screenshot]](https://example.com) <!-- TODO: Add a screenshot URL or path -->
-<!-- If you have deployed it, replace https://example.com with the live URL -->
-<!-- Otherwise, you can remove the link from the screenshot -->
+![Tashfeer cover](./image2.png) <!-- TODO: Add a screenshot URL or path e.g. images/screenshot.png -->
+<!-- If you deploy it, you can replace the GitHub link with the live URL -->
 
 Welcome, Agent! **Tashfeer** (تشفير - Arabic for "encryption") is your go-to digital toolkit for exploring the fascinating world of classical cryptography. This Streamlit-powered application allows you to:
 
@@ -80,11 +78,24 @@ Tashfeer is designed to be intuitive for beginners while offering a glimpse into
 
 ### Built With
 
-This section lists the major frameworks/libraries used to bring Tashfeer to life.
+### Built With
 
-*   [![Streamlit][Streamlit-shield]][Streamlit-url]
-*   [![Python][Python-shield]][Python-url]
-*   [![NumPy][NumPy-shield]][NumPy-url]
+* [![Streamlit][streamlit-badge]][streamlit-url]
+* [![Python][python-badge]][python-url]
+* [![NumPy][numpy-badge]][numpy-url]
+* [![VS Code][vscode-badge]][vscode-url]
+* [![GitHub][github-badge]][github-url]
+
+[streamlit-badge]: https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white
+[streamlit-url]: https://streamlit.io/
+[python-badge]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[python-url]: https://www.python.org/
+[numpy-badge]: https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white
+[numpy-url]: https://numpy.org/
+[vscode-badge]: https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white
+[vscode-url]: https://code.visualstudio.com/
+[github-badge]: https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white
+[github-url]: https://github.com/
 
 <!-- GETTING STARTED -->
 ## Getting Started 🕵️‍♂️
@@ -105,8 +116,8 @@ Ensure you have Python (3.7+ recommended) and pip installed on your system.
 
 1.  **Clone the Mission Files (Repository)**:
     ```sh
-    git clone https://github.com/[YOUR_GITHUB_USERNAME]/[YOUR_REPOSITORY_NAME].git # TODO: Update this link!
-    cd [YOUR_REPOSITORY_NAME] # TODO: Update this path!
+    git clone https://github.com/abdelrahmanmah/Tashfeer.git
+    cd Tashfeer
     ```
 2.  **Install Required Packages (Intel)**:
     It's recommended to use a virtual environment.
@@ -145,9 +156,8 @@ Once Tashfeer is running:
 
 Access the `📖 Cipher Protocol Briefings` expander at the bottom for a detailed explanation of how each cipher works and the operational flow.
 
-<!-- You'll want to take a screenshot of your app and save it in an `images` folder or link to it if hosted. -->
-<!-- For local images, create an `images` folder in your repo. -->
-<!-- ![Tashfeer Interface Screenshot](images/screenshot.png) -->
+<!-- TODO: You'll want to take a screenshot of your app and save it in an `images` folder in your repo, then update the [product-screenshot] link above. -->
+<!-- Example: ![Tashfeer Interface Screenshot](images/screenshot.png) -->
 <!-- If you can create a GIF, that's even better! -->
 
 <!-- CIPHER PROTOCOLS -->
@@ -171,54 +181,25 @@ Tashfeer implements the following classical ciphers:
     *   **Encryption**: Substitution cipher is applied first, followed by a transposition cipher on the result.
     *   **Decryption**: Transposition cipher is decrypted first, followed by substitution cipher decryption on the result.
 
-<!-- ROADMAP -->
-## Roadmap 🗺️
 
-*   [ ] Add more classical ciphers (e.g., Playfair, ADFGVX).
-*   [ ] Implement basic cryptanalysis tools (e.g., frequency analysis).
-*   [ ] Option to ignore non-alphabetic characters or include them in ciphers.
-*   [ ] Enhanced UI/UX elements.
-*   [ ] Ability to save/load encrypted messages and keys.
-*   [ ] One-Time Pad (OTP) demonstration (with clear warnings about true randomness).
-*   [ ] User accounts / history (if deployed as a larger service).
+<!-- AUTHORS AND CONTACT -->
+## Authors and Contact 📞
 
-See the [open issues](https://github.com/[YOUR_GITHUB_USERNAME]/[YOUR_REPOSITORY_NAME]/issues) for a full list of proposed features (and known issues). <!-- TODO: Update this link! -->
+This project was developed by the talented team:
 
-<!-- CONTRIBUTING -->
-## Contributing 🤝
+*   **Abdelrahman Mahmoud** - [abdelrahmanmah](https://github.com/abdelrahmanmah)
+*   **Gannatullah Asaad** - [Gannatullah](https://github.com/GannaAsaad) <!-- TODO: Add Gannatullah's GitHub handle if available -->
+*   **Ali Mohamed** - [Ali Mohamed](https://github.com/AliiiMohamedAliii) <!-- TODO: Add Ali's GitHub handle if available -->
+*   **Ahmed Khaled** - [Ahmed's GitHub Handle](https://github.com/Holako22) <!-- TODO: Add Ahmed's GitHub handle if available -->
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
-<!-- CONTACT -->
-## Contact 📞
-
-[Your Name/GitHub Username] - @[YourTwitterHandle_Optional] - [your.email@example.com_Optional] <!-- TODO: Update contact info -->
-
-Project Link: [https://github.com/[YOUR_GITHUB_USERNAME]/[YOUR_REPOSITORY_NAME]](https://github.com/[YOUR_GITHUB_USERNAME]/[YOUR_REPOSITORY_NAME]) <!-- TODO: Update this link! -->
+Project Link: [https://github.com/abdelrahmanmah/Tashfeer](https://github.com/abdelrahmanmah/Tashfeer)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments 🙏
 
+*   Dr/ Nermein, TA/ Nada
+*   Our dedicated team: Gannatullah Asaad, Ali Mohamed, and Ahmed Khaled.
 *   Inspired by the world of cryptography and secret codes.
 *   [Othneil Drew's Best-README-Template](https://github.com/othneildrew/Best-README-Template) for the structural inspiration.
 *   The Streamlit community for an amazing framework.
 *   All the pioneers of classical ciphers.
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot.png  <!-- TODO: Create an images/screenshot.png file or link to an uploaded image -->
-[Streamlit-shield]: https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white
-[Streamlit-url]: https://streamlit.io/
-[Python-shield]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
-[Python-url]: https://www.python.org/
-[NumPy-shield]: https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white
-[NumPy-url]: https://numpy.org/
