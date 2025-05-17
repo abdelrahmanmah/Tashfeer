@@ -1,11 +1,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/abdelrahmanmah/Tashfeer">
-    <!-- You can create a simple logo or use an emoji -->
-    <!-- Option 1: Emoji -->
-    <h1 style="font-size: 4em;">🕶️</h1>
-    <!-- Option 2: Simple Text Logo (if you prefer) -->
-    <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
 
   <h3 align="center">Tashfeer - The Cipher Suite</h3>
