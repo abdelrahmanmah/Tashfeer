@@ -129,7 +129,7 @@ Ensure you have Python (3.7+ recommended) and pip installed on your system.
     ```
 3.  **Launch the Cipher Engine**:
     ```sh
-    streamlit run project3.py
+    streamlit run main.py
     ```
     Your default web browser should automatically open Tashfeer!
 
